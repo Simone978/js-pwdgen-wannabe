@@ -12,4 +12,4 @@ var password = nome + cognome + colore + numFisso;
 // console.log(password);
 
 // inserisco la password generata all'interno dello span con id Password
-document.getElementById('password').innerHTML = password;
+document.getElementById('password').innerHTML = ' ' + password;
